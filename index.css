@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+    margin: 1rem;
+}
+
+h1 {
+    font-family: "nautica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h2 {
+    font-family: "nautica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: black;
+
+}
+
+#colour-picker, .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seed-colour, #colour-scheme, #get-colours {
+    margin-bottom: 10px;
+}
+
+.colour {
+    width: 100%;
+    height: 3rem;
+}
+
+.colour-value, .hex-value {
+    display: flex;
+}
+
+.hex-value {
+    justify-content: space-around;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.get-colours-btn {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    font-family: "arponasans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.colour-scheme {
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    border: none;
+    text-align: center;
+    font-family: "arponasans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#colour-picker {
+    font-family: "arponasans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

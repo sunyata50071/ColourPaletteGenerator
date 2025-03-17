@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pvz5ilt.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pvz5ilt.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="user-interface">
+                <h1>Colour Palette Generator</h1>
+                <h2>Find the perfect colour for your project</h2>
+            </div>
+            <div id="colour-picker">
+                <label for="seed-colour">Choose a colour: </label>
+                <input type="color" id="seed-colour" class="seed-colour" name="colour"/>
+                <label for="colour-scheme">Choose a colour scheme: </label>
+                <select name="colour-scheme" id="colour-scheme" class="colour-scheme">
+                    <option value="analogic">Analogic</option>
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="monochrome-dark">Monoschrome-dark</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="get-colours" class="get-colours-btn">Get colours</button>
+            </div>
+            <div class="display-colours">
+                <div class="colour-value" id="colour-value">
+                </div>
+                <div class="hex-value" id="hex-value">
+                </div
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
